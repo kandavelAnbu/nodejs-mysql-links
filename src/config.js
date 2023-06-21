@@ -4,8 +4,8 @@ config();
 export const database = {
   connectionLimit: 10,
   host: process.env.DATABASE_HOST || "localhost",
-  user: process.env.DATABASE_USER || "fazt",
-  password: process.env.DATABASE_PASSWORD || "mypassword",
+  user: process.env.DATABASE_USER || "kandavel",
+  password: process.env.DATABASE_PASSWORD || "Timmy@1717",
   database: process.env.DATABASE_NAME || "linksdb",
   port: process.env.DATABASE_PORT || 3306,
 };
